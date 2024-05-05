@@ -1,0 +1,293 @@
+
+.alice-regular {
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #333;
+}
+h1{
+    color: rgb(255, 255, 255) ;
+    margin: 0px;
+    padding: 5px 80px 6px 80px;
+    background: #333;
+    text-shadow: 2px 2px 3px rgb(195, 200, 101) ;
+}
+
+.sec h2{
+    padding-left: 3px;
+    border-left: 3px solid #333;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+#nav{
+    position: fixed;
+    border-bottom: 3px solid rgb(195, 200, 101) ;
+    width: 100%;
+} 
+#nav li{
+    float: left;
+}
+li a {
+    display: block;
+    color: rgb(195, 200, 101);
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #ffffff;
+}
+#home{
+    margin: 0;
+    padding: 0;
+}
+#home:hover{
+    background-color:#333;
+}
+footer{
+    color: #ffffff;
+    background-color: #333;
+}
+#intro{
+    padding-top: 50px;
+    width: 100%;
+    height: 35%;
+}
+#mainImg{
+    position:absolute;
+    float: right;
+    margin-top: 0%; 
+    right: 10%;
+    width: 20%;
+    height: 20%;
+}
+span{
+
+    padding-left: 7px;
+    float:right; 
+    padding-right: 7px;
+}
+.sec{
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn, button{
+    color: #333;
+    height: 31px ;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(195, 200, 101);
+    margin: 0px;
+    
+}
+.btn a{
+    display: block;
+    color: rgb(195, 200, 101);
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    background-color: rgb(254, 254, 254);
+}
+.btn:hover, .btn a:hover, button:hover{
+    color: #ffffff;
+    background-color: rgb(195, 200, 101);
+}
+
+#sec2{
+    border-top: 15px solid #333;
+    border-bottom: 15px solid #333;
+    display: flex;
+    flex-direction: row;
+    width: 99%;
+    align-items: center;
+    justify-content: center;
+    background-image: url("7.png");
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 210px;
+    border: 50px solid #ffffff00;
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #333;
+    color: rgb(195, 200, 101);
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: #333;
+    color: white;
+    transform: rotateY(180deg);
+  }
+.flip-card-back ul {
+    padding: 9%;
+}
+
+.flipImage{
+    margin-top: -10px;
+    width:300px;
+    height:120px;
+}
+
+#RandRecipes a, #RandRecipes h4{
+    color:  rgb(195, 200, 101);
+}
+form {
+    margin: 20px 0px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  input {
+    all: unset;
+    border: 1px solid rgb(195, 200, 101);
+    font: 12px system-ui;
+    color: #333;
+    height: 17px;
+    width: 100%;
+    padding: 6px 10px;
+  }
+
+.popup {
+    display: none;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+    width: 300px;
+    height: max-content;
+    padding: 15px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(195, 200, 101) ;
+}
+.popup .close-btn{
+    cursor: pointer;
+    background: rgb(195, 200, 101);
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 15px;
+    color: #ffffff;
+    
+}
+.popup h3{
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+    font-size: x-large;
+}
+.popup .form-element {
+    margin-left: 10px;
+    margin-top: 5px;
+    display: block;
+    width: 85%;
+}
+.popup button{
+    color: rgb(255, 255, 255);
+    width: 276px;
+    height: 30px;
+    background: rgb(195, 200, 101);
+    border: none;
+    cursor: pointer;
+}
+.popup a{
+    color: rgb(195, 200, 101);
+    font-size: small;
+    margin-bottom: 0px;
+}
+.popup .form-element input[type="submit"]{
+    margin: 15px 0px;
+    color: #ffffff;
+    background-color: rgb(195, 200, 101) ;
+    text-align: center;
+}
+
+
+.box{
+    border: 5px solid #333;
+    padding: 10px;
+    height: max-content;
+}
+.box h2{
+    color: rgb(195, 200, 101) ;
+}
+
+.box img{
+    margin-top: -5%;
+    margin-left: 25px;
+    margin-right: 10px;
+    float: right;
+    width: 200px;
+    height: 50%;
+    border: 2px solid #333;
+}
+.box a{
+    color: rgb(195, 200, 101) ;
+}
+.box ul{
+    margin-top: -15px;
+    padding-left: 16px;
+    list-style-type:disc;
+    background-color: white;
+    color: #333;
+}
+#notFound{
+    position:absolute;
+    top: 15%;
+    left: 54.5%;
+    right: 22%;
+    transform: translate(-50%,-50%) ;
+
+}
+#searchWord{
+    width: 100%;
+}
+#searchButton{
+    padding-left: 10%;
+    width: 30%;
+}
+#searchButton:hover{
+    color: #ffffff;
+    background-color:rgb(195, 200, 101) ;
+}
+#searchForm{
+    position:absolute;
+    left: 40%;
+    
+}
+#cont{
+    padding-left: 10px;
+}
