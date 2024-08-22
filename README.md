@@ -7,7 +7,7 @@ Nostimo is a comprehensive recipes website that offers a wide variety of delecta
 ### Features
 
 - Recipe Search: Users can easily search for recipes.
-- Recipe Details: Each recipe has detailed instructions, ingredients and YouTupe vedio.
+- Recipe Details: Each recipe has detailed instructions, ingredients and YouTupe video.
 
 ### Technologies Used
 
